@@ -1,0 +1,256 @@
+.close, .close-modal {
+	display: block;
+	line-height: 19px;
+}
+.backgroundsize .close:after, .backgroundsize .close-modal:after {
+	display: inline-block;
+	vertical-align: middle;
+ *vertical-align: auto;
+ *zoom: 1;
+ *display: inline;
+	position: relative;
+	vertical-align: top;
+	width: 22px;
+	height: 22px;
+	content: " ";
+	background: url("../img/slider/close.png") left top no-repeat;
+	background-size: 20px;
+	margin-left: .5em;
+}
+.no-backgroundsize .close, .no-backgroundsize .close-modal {
+	text-decoration: underline;
+}
+.close-modal {
+	font-size: 0.75em;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	text-decoration: none !important;
+}
+.grid, .grid-hero {
+ *zoom: 1;
+	margin: auto;
+}
+.grid:after, .grid-hero:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.grid, .grid-hero {
+	width: 94.20833%;
+}
+/*.why-speaker-title {
+	width: 22.9828850856%;
+}*/
+ .why-col, {
+ width: 31.5403422983%;
+}
+.why-speaker-story {
+	width: 74.3276283619%;
+	float: left;
+}
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+ *zoom: 1;
+	float: right;
+}
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+/* ==========================================================================
+   Modules - Blades
+   ========================================================================== */
+
+
+.blade-pad, [class*='blade-'], .blades .why-speakers-featured, .why-speakers-info {
+ padding: 3px 0;
+ color:#000;
+}
+.why-speakers-info {
+/*	padding: 55px 0;
+*/	color: #000;
+}
+.blades h1 {
+	font-family: "Segoe UI light", "Segoe UI";
+	font-weight: 100;
+	font-size: 1.25em;
+	line-height: 1.25;
+	margin-bottom: 0;
+}
+.blades h1 {
+	font-size: 1.75em;
+}
+.blades h2 {
+	line-height: 1.25;
+	margin-bottom: 0;
+	font-size: 26px;
+	font-family: "Segoe UI light", "Segoe UI";
+	font-weight: 100;
+}
+.blades h3 {
+	font-size: 1.0625em;
+}
+.blades p {
+	font-size: 0.875em;
+}
+.blades ul, .blades ol {
+	font-size: 0.875em;
+}
+.compact, .connect-phone {
+	margin: 0.42857em 0;
+}
+/* ==========================================================================
+   Module - Why Blade
+   ========================================================================== */
+.blades .blade-why {
+	background: #fcd116;
+	padding-bottom: 0;
+}
+.why-title + .why-col {
+	margin-top: 1em;
+}
+.blades .why-speakers-featured {
+	padding-bottom: 0;
+}
+.why-speakers-info {
+	background: #fff;
+}
+.why-speakers-info .grid, .why-speakers-info .grid-hero {
+	position: relative;
+}
+.why-speaker-close {
+	font-family: "Segoe UI SemiBold", "Segoe UI";
+	font-weight: 600;
+	font-size: 0.75em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: -40px;
+}
+/*.why-speaker-title {
+	float: left;
+}
+*/.why-speaker-title .why-speaker-name {
+	font-size: 1.3em;
+line-height: 1.1;
+float: left;
+margin-top: 5px;
+margin-right: 16px;
+margin-left: 45px;
+margin-bottom: 9px;
+}
+.why-speaker-title .why-speaker-role {
+	font-family: "Segoe UI SemiBold", "Segoe UI";
+	font-weight: 600;
+	font-size: 0.975em;
+float: left;
+margin-top: 9px;
+}
+.why-speaker-story p:last-child {
+	margin-bottom: 0;
+}
+.speakers-carousel ul {
+	list-style: none;
+}
+ ul.speakers-../images li.speaker img {
+ display: block;
+}
+.speakers-carousel {
+	position: relative;
+	text-align: center;
+	padding: 0;
+}
+.speakers-carousel .speakers-../images {
+ margin: 0;
+}
+.speakers-carousel .speaker {
+	cursor: pointer;
+}
+.speakers-carousel .speaker .plus-icon {
+	display: block;
+	opacity: 1;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	background-image: url("../img/slider/spearker-plus-icon.png");
+	transition: opacity 0.5s;
+}
+.speakers-carousel .speaker .active-arrow {
+	display: block;
+	opacity: 0;
+	width: 33px;
+	height: 35px;
+	margin-left: -16px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background-image: url("../img/slider/speaker-active-arrow.png");
+	transition: opacity 0.5s;
+}
+.speakers-carousel .bx-next, .speakers-carousel .bx-prev {
+	display: block;
+	position: absolute;
+	top: 50%;
+	background-image: url("../img/slider/arrow.png");
+	width: 24px;
+	height: 29px;
+	text-indent: -9999px;
+}
+.speakers-carousel .bx-next.disabled, .speakers-carousel .bx-prev.disabled {
+	display: none;
+}
+.speakers-carousel .bx-prev {
+	left: 0;
+	background-position: top left;
+}
+.speakers-carousel .bx-next {
+	right: 0;
+	background-position: top right;
+}
+.speakers-carousel .bx-wrapper {
+	margin: 0 auto;
+	float: none;
+	max-width: 170px !important;
+}
+.speakers-carousel .bx-wrapper .speaker {
+	margin: 0;
+}
+.speakers-carousel .bx-wrapper {
+	max-width: 680px !important;
+}
+.safari .carousel-grid {
+	margin-bottom: -1px;
+}
+.speaker-content {
+	display: block;
+	width: 100%;
+	background: #fff;
+}
+@media (max-width: 720px) {
+.speaker-content {
+	height: auto !important;
+}
+}
+.speaker-content .content {
+	display: none;
+	opacity: 0;
+	position: relative;
+	transition: opacity 0.25s;
+}
+.speaker-content .content.active {
+	display: block;
+	opacity: 1;
+}
+.speakers-carousel .speaker.active .plus-icon {
+	opacity: 0;
+}
+.speakers-carousel .speaker.active .active-arrow {
+	opacity: 1;
+}

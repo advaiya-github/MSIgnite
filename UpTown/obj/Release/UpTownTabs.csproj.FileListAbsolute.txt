@@ -1,0 +1,10 @@
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\UpTownTabs.dll.config
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\UpTownTabs.dll
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\UpTownTabs.pdb
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\Facebook.dll
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\Newtonsoft.Json.dll
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\Facebook.xml
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\bin\Newtonsoft.Json.xml
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\obj\Release\UpTownTabs.dll
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\obj\Release\UpTownTabs.pdb
+C:\Users\swati.trivedi\Documents\Projects\UpTown Treehouse\SourceCode\UpTown\obj\Release\UpTownTabs.csprojResolveAssemblyReference.cache
